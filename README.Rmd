@@ -1,0 +1,12 @@
+---
+title: "FishGrowth"
+author: "Diego Corrêa Alves"
+date: "2023-11-05"
+output: html_document
+---
+
+## FishGrowth R package testing (under development)
+
+This is my first test with R packages and GitHub. The test will be based on somatic fish growth. To begin, I'll be pushing the Length and Likelihood-based Growth Model (LLGM) (Alves et al., 2018, Age Composition and growth without age data: a likelihood-based model. Fisheries Research, 204), which can be found at <https://www.sciencedirect.com/science/article/pii/S0165783618300493?via%3Dihub>.
+
+The next step will involve pushing some extensions, including probability distribution assumptions and Bayesian inference perspective. In the future, I may consider aggregating various functionalities related to somatic fish growth.

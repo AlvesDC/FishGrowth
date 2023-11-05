@@ -1,0 +1,18 @@
+Package: FishGrowth
+Version: 0.2
+Date: 2023-11-01
+Title: Fish growth and age composition without age data
+Description: Methods to estimate growth parameters and age composition without age data. This approach uses only one length vector and it is a likelihood-based. This model will be named "Length and Likelihood-based Growth Model" (LLGM). 
+Author: Diego C Alves <dcalves@uem.br>
+Maintainer: Diego C Alves <dcalves@uem.br>
+License: MIT + file LICENSE
+RoxygenNote: 7.2.3
+Imports:
+    truncnorm,
+    DEoptim,
+    matrixcalc,
+    mnormt
+References:
+    [1] Alves, DC., Vasconcelos, LP., Agostinho, AA. (2018) Age composition and growth without age data: a likelihood-based model. Fisheries Research: 204: 361-370. URL: https://doi.org/10.1016/j.fishres.2018.02.013.
+
+    
